@@ -1,5 +1,6 @@
 /** @import must precede all other statements */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -57,6 +58,13 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Second Sunrise Brand Colors */
+    --sunrise-dark: 28 62% 35%;
+    --sunrise-gold: 41 87% 52%;
+    --sunrise-light: 35 100% 62%;
+    --sunrise-cream: 0 0% 98%;
+    --sunrise-accent: 28 100% 50%;
   }
 
   .dark {
