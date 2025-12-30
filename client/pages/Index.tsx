@@ -188,7 +188,7 @@ export default function Index() {
                 <div className="flex items-start gap-3">
                   <span className="text-sunrise-gold text-2xl mt-1">✓</span>
                   <p className="text-gray-700">
-                    Transformative teachings on consciousness and healing
+                    Transformative insights on inner strength and the power of daily practice
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
