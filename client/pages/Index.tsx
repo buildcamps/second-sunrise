@@ -171,10 +171,10 @@ export default function Index() {
 
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 Second Sunrise chronicles his remarkable journey from despair to
-                determination, from paralysis to renewed vitality. Drawing from
-                Sadhguru's teachings on consciousness, ancient yoga wisdom, and
-                the brutal realities of illness, Dr. Shah transformed a death
-                sentence into a beacon of hope.
+                determination, from paralysis to renewed vitality. Through deep
+                yoga and meditation practices, and drawing on an inner strength
+                and unwavering spirit, Dr. Shah transformed a death sentence into
+                a beacon of hope for anyone facing life's greatest challenges.
               </p>
 
               <div className="space-y-3">
