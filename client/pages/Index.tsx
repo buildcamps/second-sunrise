@@ -116,13 +116,12 @@ export default function Index() {
             <div>
               <div className="bg-gradient-to-br from-amber-900 to-orange-800 rounded-lg p-1 inline-block">
                 <div className="bg-white rounded-lg p-6">
-                  {/* Book cover visualization */}
-                  <div className="bg-gradient-to-br from-amber-900 via-orange-700 to-amber-600 rounded aspect-[9/12] flex flex-col items-center justify-center p-8 text-white">
-                    <div className="text-center">
-                      <p className="font-serif text-5xl font-bold mb-4">Second Sunrise</p>
-                      <p className="font-serif text-lg">A True Story of Hope</p>
-                    </div>
-                  </div>
+                  {/* Book cover */}
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fa63454bd5d0647989a1c51c52f5a6a85%2Fdafffaa5cf5249fd8878b29785b13fc4?format=webp&width=800"
+                    alt="Second Sunrise Book Cover"
+                    className="rounded w-full aspect-[9/12] object-cover"
+                  />
                 </div>
               </div>
             </div>
