@@ -224,9 +224,9 @@ export default function Index() {
                   "A rare dual perspective from someone who has been both healer and patient",
               },
               {
-                title: "Consciousness & Healing",
+                title: "Yoga, Meditation & Inner Strength",
                 description:
-                  "How ancient wisdom and modern medicine converge in the pursuit of wholeness",
+                  "How daily yoga and meditation unlocked a deeper inner strength and transformed his approach to healing",
               },
               {
                 title: "The Power of Resilience",
