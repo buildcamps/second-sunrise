@@ -95,8 +95,8 @@ export default function Index() {
             </button>
             <button
               onClick={() => {
-                const aboutSection = document.getElementById('about');
-                aboutSection?.scrollIntoView({ behavior: 'smooth' });
+                const aboutSection = document.getElementById("about");
+                aboutSection?.scrollIntoView({ behavior: "smooth" });
               }}
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-serif font-semibold hover:bg-white/10 transition-colors"
             >
@@ -107,8 +107,8 @@ export default function Index() {
           {/* Scroll chevron indicator */}
           <button
             onClick={() => {
-              const aboutSection = document.getElementById('about');
-              aboutSection?.scrollIntoView({ behavior: 'smooth' });
+              const aboutSection = document.getElementById("about");
+              aboutSection?.scrollIntoView({ behavior: "smooth" });
             }}
             className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hover:opacity-70 transition-opacity"
             aria-label="Scroll to about section"
@@ -173,8 +173,9 @@ export default function Index() {
                 Second Sunrise chronicles his remarkable journey from despair to
                 determination, from paralysis to renewed vitality. Through deep
                 yoga and meditation practices, and drawing on an inner strength
-                and unwavering spirit, Dr. Shah transformed a death sentence into
-                a beacon of hope for anyone facing life's greatest challenges.
+                and unwavering spirit, Dr. Shah transformed a death sentence
+                into a beacon of hope for anyone facing life's greatest
+                challenges.
               </p>
 
               <div className="space-y-3">
@@ -188,7 +189,8 @@ export default function Index() {
                 <div className="flex items-start gap-3">
                   <span className="text-sunrise-gold text-2xl mt-1">✓</span>
                   <p className="text-gray-700">
-                    Transformative insights on inner strength and the power of daily practice
+                    Transformative insights on inner strength and the power of
+                    daily practice
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
