@@ -234,14 +234,14 @@ export default function Index() {
             <div className="order-1 md:order-2">
               <div className="bg-gradient-to-br from-sunrise-gold to-amber-600 rounded-lg p-1">
                 <div className="bg-white rounded-lg p-8">
-                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg aspect-square flex items-center justify-center mb-6">
-                    <div className="text-center text-white">
-                      <div className="text-6xl mb-2">🧘</div>
-                      <p className="font-serif text-lg">Dr. Jawahar M Shah</p>
-                    </div>
-                  </div>
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fa63454bd5d0647989a1c51c52f5a6a85%2F40a4e64b965b468aa5910bd37e7bfefb?format=webp&width=800"
+                    alt="Dr. Jawahar M Shah"
+                    className="rounded-lg w-full aspect-square object-cover mb-6"
+                  />
                   <div className="space-y-2 text-center">
-                    <p className="font-serif text-lg text-sunrise-dark">Physician & Yoga Teacher</p>
+                    <p className="font-serif text-lg text-sunrise-dark">Dr. Jawahar M Shah</p>
+                    <p className="text-sm text-gray-600">Physician & Yoga Teacher</p>
                     <p className="text-sm text-gray-600">Islampur, Maharashtra, India</p>
                   </div>
                 </div>
