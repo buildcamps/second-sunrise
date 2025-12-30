@@ -8,13 +8,22 @@ export default function Index() {
             Second Sunrise
           </div>
           <div className="flex gap-8">
-            <a href="#about" className="text-sm text-gray-700 hover:text-sunrise-gold transition">
+            <a
+              href="#about"
+              className="text-sm text-gray-700 hover:text-sunrise-gold transition"
+            >
               About
             </a>
-            <a href="#author" className="text-sm text-gray-700 hover:text-sunrise-gold transition">
+            <a
+              href="#author"
+              className="text-sm text-gray-700 hover:text-sunrise-gold transition"
+            >
               Author
             </a>
-            <a href="#cta" className="text-sm text-gray-700 hover:text-sunrise-gold transition">
+            <a
+              href="#cta"
+              className="text-sm text-gray-700 hover:text-sunrise-gold transition"
+            >
               Get Book
             </a>
           </div>
@@ -49,7 +58,14 @@ export default function Index() {
                 opacity="0.3"
               />
               {/* Sun rays effect */}
-              <circle cx="600" cy="350" r="80" fill="#FCD34D" opacity="0.6" filter="url(#blur)" />
+              <circle
+                cx="600"
+                cy="350"
+                r="80"
+                fill="#FCD34D"
+                opacity="0.6"
+                filter="url(#blur)"
+              />
               <circle cx="600" cy="350" r="50" fill="#FBBF24" opacity="0.8" />
             </svg>
           </div>
@@ -68,7 +84,9 @@ export default function Index() {
           </p>
 
           <p className="text-base sm:text-lg text-amber-50 max-w-2xl mx-auto mb-12 leading-relaxed drop-shadow-md">
-            In this moving memoir, Dr Jawahar M Shah shares his extraordinary journey of hope, resilience, and renewal after facing a life-threatening illness.
+            In this moving memoir, Dr Jawahar M Shah shares his extraordinary
+            journey of hope, resilience, and renewal after facing a
+            life-threatening illness.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -132,29 +150,45 @@ export default function Index() {
               </h2>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Dr. Jawahar M Shah was at the height of his medical career when everything changed. Diagnosed with ALS, a terminal illness, he faced an impossible question: How do you live when medicine offers no cure?
+                Dr. Jawahar M Shah was at the height of his medical career when
+                everything changed. Diagnosed with ALS, a terminal illness, he
+                faced an impossible question: How do you live when medicine
+                offers no cure?
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Second Sunrise chronicles his remarkable journey from despair to determination, from paralysis to renewed vitality. Drawing from Sadhguru's teachings on consciousness, ancient yoga wisdom, and the brutal realities of illness, Dr. Shah transformed a death sentence into a beacon of hope.
+                Second Sunrise chronicles his remarkable journey from despair to
+                determination, from paralysis to renewed vitality. Drawing from
+                Sadhguru's teachings on consciousness, ancient yoga wisdom, and
+                the brutal realities of illness, Dr. Shah transformed a death
+                sentence into a beacon of hope.
               </p>
 
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <span className="text-sunrise-gold text-2xl mt-1">✓</span>
-                  <p className="text-gray-700">A physician's unflinching examination of illness and resilience</p>
+                  <p className="text-gray-700">
+                    A physician's unflinching examination of illness and
+                    resilience
+                  </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-sunrise-gold text-2xl mt-1">✓</span>
-                  <p className="text-gray-700">Transformative teachings on consciousness and healing</p>
+                  <p className="text-gray-700">
+                    Transformative teachings on consciousness and healing
+                  </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-sunrise-gold text-2xl mt-1">✓</span>
-                  <p className="text-gray-700">Practical wisdom for facing life's darkest challenges</p>
+                  <p className="text-gray-700">
+                    Practical wisdom for facing life's darkest challenges
+                  </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-sunrise-gold text-2xl mt-1">✓</span>
-                  <p className="text-gray-700">A testament to the power of family, faith, and determination</p>
+                  <p className="text-gray-700">
+                    A testament to the power of family, faith, and determination
+                  </p>
                 </div>
               </div>
             </div>
@@ -173,30 +207,39 @@ export default function Index() {
             {[
               {
                 title: "Doctor-Patient Perspective",
-                description: "A rare dual perspective from someone who has been both healer and patient"
+                description:
+                  "A rare dual perspective from someone who has been both healer and patient",
               },
               {
                 title: "Consciousness & Healing",
-                description: "How ancient wisdom and modern medicine converge in the pursuit of wholeness"
+                description:
+                  "How ancient wisdom and modern medicine converge in the pursuit of wholeness",
               },
               {
                 title: "The Power of Resilience",
-                description: "Finding meaning and peace when facing seemingly insurmountable odds"
+                description:
+                  "Finding meaning and peace when facing seemingly insurmountable odds",
               },
               {
                 title: "Family as Medicine",
-                description: "The transformative power of love, support, and unwavering belief"
+                description:
+                  "The transformative power of love, support, and unwavering belief",
               },
               {
                 title: "Practical Wisdom",
-                description: "Actionable insights for maintaining hope and agency during crisis"
+                description:
+                  "Actionable insights for maintaining hope and agency during crisis",
               },
               {
                 title: "The Second Sunrise",
-                description: "Understanding that endings can become beginnings, and darkness can give way to light"
-              }
+                description:
+                  "Understanding that endings can become beginnings, and darkness can give way to light",
+              },
             ].map((theme, idx) => (
-              <div key={idx} className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
+              <div
+                key={idx}
+                className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow"
+              >
                 <h3 className="font-serif text-xl font-bold text-sunrise-dark mb-3">
                   {theme.title}
                 </h3>
@@ -219,15 +262,25 @@ export default function Index() {
               </h2>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Dr. Jawahar M Shah is a respected physician, yoga practitioner, and social leader with decades of medical service and community work. His unique perspective—shaped by his own experience of illness and recovery—offers profound insights into consciousness, healing, and resilience.
+                Dr. Jawahar M Shah is a respected physician, yoga practitioner,
+                and social leader with decades of medical service and community
+                work. His unique perspective—shaped by his own experience of
+                illness and recovery—offers profound insights into
+                consciousness, healing, and resilience.
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                When diagnosed with ALS in 2011, doctors gave him six months to two years to live. Through a comprehensive approach combining conventional medicine, yoga, meditation, and unwavering determination, he has recovered to 80% of his pre-illness function—a medically unprecedented outcome.
+                When diagnosed with ALS in 2011, doctors gave him six months to
+                two years to live. Through a comprehensive approach combining
+                conventional medicine, yoga, meditation, and unwavering
+                determination, he has recovered to 80% of his pre-illness
+                function—a medically unprecedented outcome.
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed">
-                Today, Dr. Shah teaches yoga to seniors, leads community service initiatives, and supports other ALS patients, proving that even in our darkest moments, the sunrise can come again.
+                Today, Dr. Shah teaches yoga to seniors, leads community service
+                initiatives, and supports other ALS patients, proving that even
+                in our darkest moments, the sunrise can come again.
               </p>
             </div>
 
@@ -240,9 +293,15 @@ export default function Index() {
                     className="rounded-lg w-full aspect-square object-cover mb-6"
                   />
                   <div className="space-y-2 text-center">
-                    <p className="font-serif text-lg text-sunrise-dark">Dr. Jawahar M Shah</p>
-                    <p className="text-sm text-gray-600">Physician & Yoga Teacher</p>
-                    <p className="text-sm text-gray-600">Islampur, Maharashtra, India</p>
+                    <p className="font-serif text-lg text-sunrise-dark">
+                      Dr. Jawahar M Shah
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      Physician & Yoga Teacher
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      Islampur, Maharashtra, India
+                    </p>
                   </div>
                 </div>
               </div>
@@ -261,21 +320,25 @@ export default function Index() {
           <div className="space-y-8">
             <div className="border-l-4 border-white pl-6">
               <p className="font-serif text-2xl italic mb-3">
-                "I don't have superpowers. I have stubbornness, discipline, extraordinary support, and luck. But mostly, I have refused to accept that impossible is final."
+                "I don't have superpowers. I have stubbornness, discipline,
+                extraordinary support, and luck. But mostly, I have refused to
+                accept that impossible is final."
               </p>
               <p className="text-amber-100">— Dr. Jawahar M Shah</p>
             </div>
 
             <div className="border-l-4 border-white pl-6">
               <p className="font-serif text-2xl italic mb-3">
-                "The night is darkest before dawn. And dawn is coming. Hold on. The sun will rise again."
+                "The night is darkest before dawn. And dawn is coming. Hold on.
+                The sun will rise again."
               </p>
               <p className="text-amber-100">— From Second Sunrise</p>
             </div>
 
             <div className="border-l-4 border-white pl-6">
               <p className="font-serif text-2xl italic mb-3">
-                "This book is not just about surviving ALS. It's about living fully, consciously, and with unshakeable resilience."
+                "This book is not just about surviving ALS. It's about living
+                fully, consciously, and with unshakeable resilience."
               </p>
               <p className="text-amber-100">— From the Author's Preface</p>
             </div>
@@ -291,7 +354,8 @@ export default function Index() {
           </h2>
 
           <p className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
-            Whether you're facing illness, loss, or seeking inspiration, Second Sunrise offers hope grounded in real experience and lived wisdom.
+            Whether you're facing illness, loss, or seeking inspiration, Second
+            Sunrise offers hope grounded in real experience and lived wisdom.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -314,7 +378,9 @@ export default function Index() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-serif text-xl font-bold mb-4">Second Sunrise</h3>
+              <h3 className="font-serif text-xl font-bold mb-4">
+                Second Sunrise
+              </h3>
               <p className="text-gray-400 text-sm">
                 A journey through darkness to renewed light
               </p>
@@ -323,37 +389,86 @@ export default function Index() {
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#about" className="hover:text-white transition">About Book</a></li>
-                <li><a href="#author" className="hover:text-white transition">About Author</a></li>
-                <li><a href="#" className="hover:text-white transition">Reviews</a></li>
-                <li><a href="#" className="hover:text-white transition">Contact</a></li>
+                <li>
+                  <a href="#about" className="hover:text-white transition">
+                    About Book
+                  </a>
+                </li>
+                <li>
+                  <a href="#author" className="hover:text-white transition">
+                    About Author
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Reviews
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Contact
+                  </a>
+                </li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition">ALS Support</a></li>
-                <li><a href="#" className="hover:text-white transition">Yoga Guide</a></li>
-                <li><a href="#" className="hover:text-white transition">Blog</a></li>
-                <li><a href="#" className="hover:text-white transition">FAQ</a></li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    ALS Support
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Yoga Guide
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    FAQ
+                  </a>
+                </li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition">Instagram</a></li>
-                <li><a href="#" className="hover:text-white transition">Facebook</a></li>
-                <li><a href="#" className="hover:text-white transition">Email</a></li>
-                <li><a href="#" className="hover:text-white transition">Newsletter</a></li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Email
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-white transition">
+                    Newsletter
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-gray-800 pt-8">
             <p className="text-center text-gray-400 text-sm">
-              © 2024 Second Sunrise. A beacon of hope for anyone confronting life's darkest storms.
+              © 2024 Second Sunrise. A beacon of hope for anyone confronting
+              life's darkest storms.
             </p>
           </div>
         </div>
