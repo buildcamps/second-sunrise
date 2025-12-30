@@ -367,9 +367,7 @@ export default function Index() {
             </button>
           </div>
 
-          <p className="text-gray-600">
-            Coming soon on major book retailers
-          </p>
+          <p className="text-gray-600">Coming soon on major book retailers</p>
         </div>
       </section>
 
