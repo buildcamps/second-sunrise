@@ -90,8 +90,8 @@ export default function Index() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-sunrise-dark px-8 py-3 rounded-lg font-serif font-semibold hover:bg-amber-50 transition-colors shadow-lg">
-              Buy Now
+            <button className="bg-white text-sunrise-dark px-8 py-3 rounded-lg font-serif font-semibold opacity-60 cursor-not-allowed shadow-lg">
+              Coming Soon
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-serif font-semibold hover:bg-white/10 transition-colors">
               Learn More
