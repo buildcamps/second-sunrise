@@ -89,17 +89,30 @@ export default function Index() {
             life-threatening illness.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <button className="bg-white text-sunrise-dark px-8 py-3 rounded-lg font-serif font-semibold opacity-60 cursor-not-allowed shadow-lg">
               Coming Soon
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-serif font-semibold hover:bg-white/10 transition-colors">
+            <button
+              onClick={() => {
+                const aboutSection = document.getElementById('about');
+                aboutSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="border-2 border-white text-white px-8 py-3 rounded-lg font-serif font-semibold hover:bg-white/10 transition-colors"
+            >
               Learn More
             </button>
           </div>
 
-          {/* Scroll indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          {/* Scroll chevron indicator */}
+          <button
+            onClick={() => {
+              const aboutSection = document.getElementById('about');
+              aboutSection?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hover:opacity-70 transition-opacity"
+            aria-label="Scroll to about section"
+          >
             <svg
               className="w-6 h-6 text-white"
               fill="none"
@@ -113,7 +126,7 @@ export default function Index() {
                 d="M19 14l-7 7m0 0l-7-7m7 7V3"
               />
             </svg>
-          </div>
+          </button>
         </div>
       </section>
 
