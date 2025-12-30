@@ -275,11 +275,12 @@ export default function Index() {
               </h2>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Dr. Jawahar M Shah is a respected physician, yoga practitioner,
-                and social leader with decades of medical service and community
-                work. His unique perspective—shaped by his own experience of
-                illness and recovery—offers profound insights into
-                consciousness, healing, and resilience.
+                Dr. Jawahar M Shah is a respected physician, dedicated yoga
+                practitioner, and social leader with decades of medical service
+                and community work. His unique perspective—shaped by his own
+                experience of illness and recovery—offers profound insights into
+                the transformative power of inner strength, daily practice, and
+                unwavering resilience.
               </p>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
